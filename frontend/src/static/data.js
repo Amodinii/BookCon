@@ -9,7 +9,7 @@ export const navItems = [
     url: "/best-selling",
   },
   {
-    title: "Products",
+    title: "Books",
     url: "/products",
   },
   {
@@ -104,8 +104,8 @@ export const brandingData = [
   },
   {
     id: 4,
-    title: "Affortable Prices",
-    Description: "Get Factory direct price",
+    title: "Discounted Prices",
+    Description: "Best books at lower cost",
     icon: (
       <svg
         width="32"
@@ -191,72 +191,72 @@ export const brandingData = [
 export const categoriesData = [
   {
     id: 1,
-    title: "Computers and Laptops",
+    title: "Fiction",
     subTitle: "",
     image_Url:
-      "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+      "https://tse3.mm.bing.net/th?id=OIP.2fwg72yFzZeAD5AclQHL7QHaHa&pid=Api&P=0&h=180",
   },
   {
     id: 2,
-    title: "cosmetics and body care",
+    title: "Horror",
     subTitle: "",
     image_Url:
-      "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+      "https://www.rd.com/wp-content/uploads/2021/11/The-56-Best-Horror-Books-of-All-Time-via-merchant.jpg?fit=700%2C700",
   },
   {
     id: 3,
-    title: "Accesories",
+    title: "Sci-Fi",
     subTitle: "",
     image_Url:
-      "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+      "https://tse4.mm.bing.net/th?id=OIP.1kbzn8faaBrccG_vD_GZOgHaDt&pid=Api&P=0&h=180",
   },
   {
     id: 4,
-    title: "Cloths",
+    title: "Rom-Com",
     subTitle: "",
     image_Url:
-      "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+      "https://tse3.mm.bing.net/th?id=OIP.BGJvhgZfYl2Tv58xmkeEkAHaFS&pid=Api&P=0&h=180",
   },
   {
     id: 5,
-    title: "Shoes",
+    title: "Children Books",
     subTitle: "",
     image_Url:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+      "https://tse1.mm.bing.net/th?id=OIP.CUTPL5fAUYiTRTJ8jupjTgHaEK&pid=Api&P=0&h=180",
   },
   {
     id: 6,
-    title: "Gifts",
+    title: "Self-Help",
     subTitle: "",
     image_Url:
-      "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+      "https://tse1.mm.bing.net/th?id=OIP.1CsdUtsMwrhxJiyKYiRGSAHaES&pid=Api&P=0&h=180",
   },
   {
     id: 7,
-    title: "Pet Care",
+    title: "Fantasy",
     subTitle: "",
-    image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
+    image_Url: "https://tse3.mm.bing.net/th?id=OIP.12AbYzvR7UX0YX6noZQ61QHaHa&pid=Api&P=0&h=180",
   },
   {
     id: 8,
-    title: "Mobile and Tablets",
+    title: "Mystery",
     subTitle: "",
     image_Url:
-      "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+      "https://tse1.mm.bing.net/th?id=OIP.LvAZd6pcoR3RiYATQCgygwHaKe&pid=Api&P=0&h=180",
   },
   {
     id: 9,
-    title: "Music and Gaming",
+    title: "Thriller",
     subTitle: "",
     image_Url:
-      "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+      "https://tse4.mm.bing.net/th?id=OIP.oHqxo3Ry6Ng7PJ_crjXE7AHaEK&pid=Api&P=0&h=180",
   },
   {
     id: 10,
-    title: "Others",
+    title: "Dystopian",
     subTitle: "",
     image_Url:
-      "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+      "https://tse2.mm.bing.net/th?id=OIP.1ai6zEC_YrNfD-1eUQlx2wAAAA&pid=Api&P=0&h=180",
   },
 ];
 
@@ -264,22 +264,18 @@ export const categoriesData = [
 export const productData = [
   {
     id: 1,
-    category: "Computers and Laptops",
-    name: "MacBook pro M2 chipset 256gb ssd 8gb ram space-gray color with apple 1 year warranty",
+    category: "Fiction",
+    name: "Percy Jackson and the Greek Gods",
     description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+      "Want to know how Zeus came to be top god? How many times Kronos ate one of his own kids? How Athena literally burst out of another god's head?",
     image_Url: [
       {
         public_id: "test",
-        url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
-      },
-      {
-        public_id: "test",
-        url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+        url: "https://m.media-amazon.com/images/I/81DQblziYaL._SY466_.jpg",
       },
     ],
     shop: {
-      name: "Apple inc.",
+      name: "Amodini",
       shop_avatar: {
         public_id: "test",
         url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
@@ -287,90 +283,78 @@ export const productData = [
       ratings: 4.2,
     },
     price: 1099,
-    discount_price: 1049,
+    discount_price: 859,
     rating: 4,
-    total_sell: 35,
-    stock: 10,
+    total_sell: 0,
+    stock: 1,
   },
   {
-    id: 2,
-    category: "Mobile and Tablets",
-    name: "Iphone 14 pro max 256 gb ssd and 8 gb ram silver colour",
+    id: 10,
+    category: "Dystopian",
+    name: "The Maze Runner",
     description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+      "The Maze Runner by James Dashner is a gripping dystopian thriller that will keep you on the edge of your seat. When Thomas wakes up in a mysterious, ever-changing maze with no memory of his past, he quickly realizes that survival depends on working with a group of other teens to escape. But as they navigate deadly obstacles and confront unknown dangers, they discover that their situation is far more complex than they could have ever imagined. Packed with action, suspense, and unexpected twists, this bestselling novel is perfect for fans of fast-paced, post-apocalyptic adventures.",
     image_Url: [
       {
         public_id: "test",
-        url: "https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg",
-      },
-      {
-        public_id: "test",
-        url: "https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg",
+        url: "https://i.pinimg.com/originals/72/ac/a8/72aca82f938cb0c38de0ee5f0a6094d1.jpg",
       },
     ],
     shop: {
-      name: "Amazon Ltd",
+      name: "Ahaan Shetty",
       shop_avatar: {
         public_id: "test",
         url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
       },
       ratings: 4.2,
     },
-    discount_price: 1099,
+    discount_price: 499,
     rating: 5,
-    total_sell: 80,
-    stock: 10,
-    category: "Mobile & Tablets",
+    total_sell: 0,
+    stock: 1,
+    category: "Dystopian",
+  },
+  {
+    id: 6,
+    category: "Self-Help",
+    name: "Ikigai",
+    description:
+      "Ikigai: The Japanese Secret to a Long and Happy Life by Héctor García and Francesc Miralles explores the ancient Japanese philosophy of finding purpose and joy in everyday life. Drawing from the wisdom of Okinawa, the place with the highest life expectancy, the authors reveal how discovering your 'ikigai' — your reason for being — can lead to a more fulfilling, balanced, and content life. This beautifully written book offers practical tips on how to achieve health, happiness, and longevity, making it a must-read for anyone seeking deeper meaning and lasting joy",
+    image_Url: [
+      {
+        public_id: "test",
+        url: "https://tse2.mm.bing.net/th?id=OIP.kdrgeYW8Ko00iOTZuWYXeAHaKW&pid=Api&P=0&h=180",
+      },
+    ],
+    shop: {
+      name: "Manisha",
+      shop_avatar: {
+        public_id: "test",
+        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+      },
+      ratings: 4.2,
+    },
+    price: 799,
+    discount_price: 500,
+    rating: 4,
+    total_sell: 0,
+    stock: 1,
+    category: "Self-Help",
   },
   {
     id: 1,
-    category: "Computers and Laptop",
-    name: "MacBook pro M2 chipset 256gb ssd 8gb ram space gray color with apple 1 year warranty",
+    category: "Fiction",
+    name: "Harry Potter and the Chamber of Secrets",
     description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+      "The Dark Lord is breathing fear into everything Harry loves, and to stop him Harry will have to find and destroy the remaining Horcruxes.",
     image_Url: [
       {
         public_id: "test",
-        url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
-      },
-      {
-        public_id: "test",
-        url: "https://www.istorebangladesh.com/images/thumbs/0000286_macbook-pro-m1_550.png",
+        url: "https://m.media-amazon.com/images/I/818umIdoruL._SY466_.jpg",
       },
     ],
     shop: {
-      name: "Apple inc.",
-      shop_avatar: {
-        public_id: "test",
-        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
-      },
-      ratings: 4.2,
-    },
-    price: 1099,
-    discount_price: 1049,
-    rating: 4,
-    total_sell: 75,
-    stock: 10,
-    category: "Computers & Laptop",
-  },
-  {
-    id: 4,
-    category: "Others",
-    name: "New Fashionable Watch for men 2023 with multiple colors",
-    description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
-    image_Url: [
-      {
-        public_id: "test",
-        url: "https://i0.wp.com/eccocibd.com/wp-content/uploads/2022/01/1802NL02_1.png?fit=550%2C550&ssl=1",
-      },
-      {
-        public_id: "test",
-        url: "https://i0.wp.com/eccocibd.com/wp-content/uploads/2022/01/1802NL02_1.png?fit=550%2C550&ssl=1",
-      },
-    ],
-    shop: {
-      name: "Shahriar Watch House",
+      name: "Varsha",
       shop_avatar: {
         public_id: "test",
         url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
@@ -378,196 +362,112 @@ export const productData = [
       ratings: 4.2,
       category: "Others",
     },
-    price: 100,
-    discount_price: 79,
+    price: 899,
+    discount_price: 599,
     rating: 4,
-    total_sell: 12,
-    stock: 10,
-  },
-  {
-    id: 5,
-    category: "Shoes",
-    name: "New Trend shoes for gents with all sizes",
-    description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
-    image_Url: [
-      {
-        public_id: "test",
-        url: "https://mirzacdns3.s3.ap-south-1.amazonaws.com/cache/catalog/RLV0015/2-800x800.jpg",
-      },
-      {
-        public_id: "test",
-        url: "https://mirzacdns3.s3.ap-south-1.amazonaws.com/cache/catalog/RLV0015/2-800x800.jpg",
-      },
-    ],
-    shop: {
-      name: "Alisha Shoes Mart",
-      shop_avatar: {
-        public_id: "test",
-        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
-      },
-      ratings: 4.2,
-    },
-    price: 120,
-    discount_price: 89,
-    rating: 5,
-    total_sell: 49,
-    stock: 10,
-    category: "Shoes",
-  },
-  {
-    id: 1,
-    name: "Gaming Headphone Asus with mutiple color and free delivery",
-    description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
-    image_Url: [
-      {
-        public_id: "test",
-        url: "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
-      },
-      {
-        public_id: "test",
-        url: "https://eratablet.com/wp-content/uploads/2022/08/H51ba6537405f4948972e293927673546u.jpg",
-      },
-    ],
-    shop: {
-      name: "Asus Ltd",
-      shop_avatar: {
-        public_id: "test",
-        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
-      },
-      ratings: 4.2,
-    },
-    price: 300,
-    discount_price: 239,
-    rating: 4.5,
-    reviews: [
-      {
-        user: {
-          // user object will be here
-        },
-        comment: "IT's so cool!",
-        rating: 5,
-      },
-    ],
-    total_sell: 20,
-    stock: 10,
-    category: "Music and Gaming",
+    total_sell: 0,
+    stock: 1,
   },
   {
     id: 4,
-    name: "New Fashionable Watch for men 2023 with multiple colors",
+    category: "Romcom",
+    name: "2 States",
     description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+      "2 States by Chetan Bhagat is a contemporary romance novel about the challenges faced by a young couple from different cultural backgrounds in India. The story follows Krish Malhotra, a Punjabi man, and Ananya Swaminathan, a Tamil woman, who fall in love while studying at an Indian university. However, when they decide to marry, their families’ cultural differences and traditional values create significant obstacles. The novel explores themes of love, family, cultural identity, and the complexities of interfaith and intercultural relationships in modern-day India. It is both humorous and heartfelt, showcasing the clash of cultures and the power of love to overcome differences.",
     image_Url: [
       {
         public_id: "test",
-        url: "https://i0.wp.com/eccocibd.com/wp-content/uploads/2022/01/1802NL02_1.png?fit=550%2C550&ssl=1",
-      },
-      {
-        public_id: "test",
-        url: "https://i0.wp.com/eccocibd.com/wp-content/uploads/2022/01/1802NL02_1.png?fit=550%2C550&ssl=1",
+        url: "https://m.media-amazon.com/images/I/51yMba1xEfL._SY445_SX342_.jpg",
       },
     ],
     shop: {
-      name: "Shahriar Watch House",
+      name: "Alisha",
       shop_avatar: {
         public_id: "test",
         url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
       },
       ratings: 4.2,
     },
-    price: 100,
-    discount_price: 79,
-    rating: 4,
-    total_sell: 62,
-    stock: 10,
-  },
-  {
-    id: 1,
-    name: "Gaming Headphone Asus with mutiple color and free delivery",
-    description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
-    image_Url: [
-      {
-        public_id: "test",
-        url: "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
-      },
-      {
-        public_id: "test",
-        url: "https://eratablet.com/wp-content/uploads/2022/08/H51ba6537405f4948972e293927673546u.jpg",
-      },
-    ],
-    shop: {
-      name: "Asus Ltd",
-      shop_avatar: {
-        public_id: "test",
-        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
-      },
-      ratings: 4.2,
-    },
-    price: 300,
-    discount_price: 239,
-    rating: 4.5,
-    reviews: [
-      {
-        user: {
-          // user object will be here
-        },
-        comment: "IT's so cool!",
-        rating: 5,
-      },
-    ],
-    total_sell: 20,
-    stock: 10,
-  },
-  {
-    id: 2,
-    category: "Mobile and Tablets",
-    name: "Iphone 14 pro max 256 gb ssd and 8 gb ram silver colour",
-    description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
-    image_Url: [
-      {
-        public_id: "test",
-        url: "https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg",
-      },
-      {
-        public_id: "test",
-        url: "https://m.media-amazon.com/images/I/31Vle5fVdaL.jpg",
-      },
-    ],
-    shop: {
-      name: "Amazon Ltd",
-      shop_avatar: {
-        public_id: "test",
-        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
-      },
-      ratings: 4.2,
-    },
-    discount_price: 1099,
+    price: 599,
+    discount_price: 349,
     rating: 5,
-    total_sell: 20,
-    stock: 10,
+    total_sell: 0,
+    stock: 1,
+    category: "Romcom",
   },
   {
-    id: 1,
-    category: "Music and Gaming",
-    name: "Gaming Headphone Asus with mutiple color and free delivery",
+    id: 7,
+    name: "Harry Potter and the Deathly Hallows",
     description:
-      "Product details are a crucial part of any eCommerce website or online marketplace. These details help the potential customers to make an informed decision about the product they are interested in buying. A well-written product description can also be a powerful marketing tool that can help to increase sales.Product details typically include information about the product's features, specifications, dimensions, weight, materials, and other relevant information that can help customers to understand the product better. The product details section should also include high-quality images and videos of the product, as well as customer reviews and ratings.",
+      "Harry Potter and the Deathly Hallows is the seventh and final book in J.K. Rowling's *Harry Potter* series. The story follows Harry, Ron, and Hermione as they leave Hogwarts and embark on a dangerous mission to destroy the **Horcruxes**, objects that contain pieces of the dark wizard **Voldemort's** soul. Along the way, they uncover the secret of the Deathly Hallows, powerful magical artifacts that could help defeat Voldemort. As the wizarding world plunges into war, Harry learns the truth about his own connection to Voldemort and must face his destiny in a final, climactic battle. The novel concludes the epic saga of friendship, sacrifice, and courage, as Harry confronts the ultimate evil and works to bring peace to the wizarding world.",
     image_Url: [
       {
         public_id: "test",
-        url: "https://www.startech.com.bd/image/cache/catalog/headphone/havit/h763d/h763d-02-500x500.jpg",
-      },
-      {
-        public_id: "test",
-        url: "https://eratablet.com/wp-content/uploads/2022/08/H51ba6537405f4948972e293927673546u.jpg",
+        url: "https://m.media-amazon.com/images/I/51obIvQfm3L._SY445_SX342_.jpg",
       },
     ],
     shop: {
-      name: "Asus Ltd",
+      name: "Siddharth",
+      shop_avatar: {
+        public_id: "test",
+        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+      },
+      ratings: 4.2,
+    },
+    price: 999,
+    discount_price: 759,
+    rating: 4.5,
+    reviews: [
+      {
+        user: {
+          // user object will be here
+        },
+        comment: "IT's so cool!",
+        rating: 5,
+      },
+    ],
+    total_sell: 0,
+    stock: 1,
+    category: "Fantasy",
+  },
+  {
+    id: 5,
+    name: "Half Girlfriend",
+    description:
+      "Half Girlfriend by Chetan Bhagat is a contemporary romance novel that follows the relationship between **Madhav Jha**, a boy from a small town in Bihar, and Riya Somani, a rich, English-speaking girl from Delhi. Madhav, who is passionate about Riya, struggles with his own insecurities and his inability to speak fluent English, while Riya, who is emotionally distant, agrees to be his half girlfriend—someone who is more than a friend but not fully in a relationship. The story explores themes of love, language barriers, class differences, and self-acceptance. As Madhav and Riya navigate the ups and downs of their relationship, they face personal and emotional challenges that ultimately lead them to redefine what love and commitment mean. The novel is heartfelt and deals with the complexities of modern-day relationships in India.",
+    image_Url: [
+      {
+        public_id: "test",
+        url: "https://m.media-amazon.com/images/I/712HEn9SNwL._SY466_.jpg",
+      },
+    ],
+    shop: {
+      name: "Shahriar",
+      shop_avatar: {
+        public_id: "test",
+        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+      },
+      ratings: 4.2,
+    },
+    price: 599,
+    discount_price: 379,
+    rating: 4,
+    total_sell: 0,
+    stock: 1,
+  },
+  {
+    id: 8,
+    name: "Mystery",
+    description:
+        "The Complete Sherlock Holmes by Sir Arthur Conan Doyle is an essential collection for mystery lovers, featuring all four novels and 56 short stories of the legendary detective, Sherlock Holmes. Set in the foggy streets of Victorian London, Holmes, with his unparalleled intellect and keen observation skills, solves some of the most complex and baffling cases alongside his loyal friend, Dr. Watson. From *The Hound of the Baskervilles* to *A Study in Scarlet*, this timeless anthology offers gripping tales of deduction, intrigue, and masterful storytelling, making it a must-have for any crime fiction enthusiast.",
+    image_Url: [
+      {
+        public_id: "test",
+        url: "https://d3525k1ryd2155.cloudfront.net/f/788/220/9780517220788.RH.0.x.jpg",
+      },
+    ],
+    shop: {
+      name: "Vivaan",
       shop_avatar: {
         public_id: "test",
         url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
@@ -588,6 +488,66 @@ export const productData = [
     ],
     total_sell: 20,
     stock: 10,
+  },
+  {
+    id: 7,
+    category: "Fantasy",
+    name: "Twilight",
+    description:
+      "Twilight by Stephenie Meyer is a captivating blend of romance, mystery, and supernatural elements. The story follows Bella Swan, a high school girl who moves to the small town of Forks and unexpectedly falls in love with Edward Cullen, a handsome and mysterious vampire. As Bella navigates the complexities of her feelings, she discovers dark secrets about Edward's world, where danger and love collide. This bestselling novel will immerse you in a world of forbidden romance, thrilling suspense, and unforgettable characters. Perfect for fans of fantasy and young adult fiction!",
+    image_Url: [
+      {
+        public_id: "test",
+        url: "https://tse1.mm.bing.net/th?id=OIP.Ze9xLuFqT-On5MXEKOqJuwAAAA&pid=Api&P=0&h=180",
+      },
+    ],
+    shop: {
+      name: "Aashna",
+      shop_avatar: {
+        public_id: "test",
+        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+      },
+      ratings: 4.2,
+    },
+    discount_price: 499,
+    rating: 5,
+    total_sell: 0,
+    stock: 1,
+  },
+  {
+    id: 10,
+    category: "Dystopian",
+    name: "The Stand",
+    description:
+      "The Stand by Stephen King is a post-apocalyptic dystopian novel that explores the collapse of society following the outbreak of a deadly superflu, known as Captain Trips, which wipes out 99% of the world's population. The survivors of the plague find themselves divided into two groups: one led by the kind and wise Mother Abagail, symbolizing good, and the other by the manipulative and sinister Randall Flagg, representing evil. These two groups inevitably clash in a final showdown for control of what remains of the world.Set in a vast, ruined America, The Stand delves into themes of survival, morality, and the battle between good and evil. The novel explores how human nature is shaped by circumstances, the rebuilding of civilization, and the dangers of absolute power. With its large cast of characters and epic scope, The Stand is considered one of Stephen King's most ambitious and iconic works.",
+    image_Url: [
+      {
+        public_id: "test",
+        url: "https://coolthingschicago.com/wp-content/uploads/2020/05/111-1258x2048.jpg",
+      },
+    ],
+    shop: {
+      name: "Sathwik",
+      shop_avatar: {
+        public_id: "test",
+        url: "https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png",
+      },
+      ratings: 4.2,
+    },
+    price: 559,
+    discount_price: 349,
+    rating: 4.5,
+    reviews: [
+      {
+        user: {
+          // user object will be here
+        },
+        comment: "IT's so cool!",
+        rating: 5,
+      },
+    ],
+    total_sell: 0,
+    stock: 1,
   },
 ];
 
@@ -613,19 +573,19 @@ export const footerProductLinks = [
 
 export const footercompanyLinks = [
   {
-    name: "Game & Video",
+    name: "Fictional Books",
   },
   {
-    name: "Phone &Tablets",
+    name: "Self-Help Books",
   },
   {
-    name: "Computers & Laptop",
+    name: "RomCom Books",
   },
   {
-    name: "Sport Watches",
+    name: "Thriller Books",
   },
   {
-    name: "Events",
+    name: "Mystery Books",
   },
 ];
 
