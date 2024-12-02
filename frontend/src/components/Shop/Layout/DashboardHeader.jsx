@@ -12,16 +12,25 @@ const DashboardHeader = () => {
     return (
         <div className="w-full h-[80px] bg-white shadow sticky top-0 left-0 z-30 flex items-center justify-between px-4">
             <div>
-                <Link to="/dashboard">
+                <Link to="/">
                     <img
-                        src="https://shopo.quomodothemes.website/assets/images/logo.svg"
-                        alt=""
+                        src="/image.png"
+                        alt="Logo"
+                        style={{
+                            height: "40px", // Adjust this value based on your navbar height
+                            width: "auto",
+                            maxWidth: "200px", // Prevents image from being too wide
+                            objectFit: "contain", // Maintains aspect ratio
+                        }}
                     />
                 </Link>
             </div>
             <div className="flex items-center">
                 <div className="flex items-center mr-4">
-                    <Link to="/dashboard/cupouns" className="800px:block hidden">
+                    <Link
+                        to="/dashboard/cupouns"
+                        className="800px:block hidden"
+                    >
                         <AiOutlineGift
                             color="#555"
                             size={30}
@@ -35,7 +44,10 @@ const DashboardHeader = () => {
                             className="mx-5 cursor-pointer"
                         />
                     </Link>
-                    <Link to="/dashboard-products" className="800px:block hidden">
+                    <Link
+                        to="/dashboard-products"
+                        className="800px:block hidden"
+                    >
                         <FiShoppingBag
                             color="#555"
                             size={30}
@@ -43,9 +55,16 @@ const DashboardHeader = () => {
                         />
                     </Link>
                     <Link to="/dashboard-orders" className="800px:block hidden">
-                        <FiPackage color="#555" size={30} className="mx-5 cursor-pointer" />
+                        <FiPackage
+                            color="#555"
+                            size={30}
+                            className="mx-5 cursor-pointer"
+                        />
                     </Link>
-                    <Link to="/dashboard-messages" className="800px:block hidden">
+                    <Link
+                        to="/dashboard-messages"
+                        className="800px:block hidden"
+                    >
                         <BiMessageSquareDetail
                             color="#555"
                             size={30}
