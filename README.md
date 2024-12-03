@@ -1,9 +1,9 @@
 <div align="center">
       <img width="226" alt="image" src="https://github.com/pattjoshi/Multi_vondor_E_shop/assets/78966839/51c0517e-e5e6-4a65-a520-9e5a52095fb9">
 
-## 🌟 MERN Marketplace 🌟
+## 🌟 BookCon 🌟
 
-The MERN Marketplace application will allow users to become sellers, who can manage shops, and add the products they want to sell in each shop. Admin can control functionality of Seller Users who visit MERN Marketplace will be able to search for and browse products they want to buy, and add products to their shopping cart to place an order. we have 3 Order Method.
+The BookCon application will allow users to become sellers, who can manage shops, and add the products they want to sell in each shop. Admin can control functionality of Seller Users who visit BookCon will be able to search for and browse products they want to buy, and add products to their shopping cart to place an order. we have 3 Order Method.
 
 </div>
 
@@ -323,9 +323,7 @@ The MERN Marketplace application will allow users to become sellers, who can man
 
 ## Project description 📝
 
-🌟 Introducing MERN Marketplace: A Revolutionary Multi-Vendor Website 🌟
-
-🚀 Dear LinkedIn Network, I am thrilled to announce the completion of my latest project, the MERN Marketplace! 🌟 This dynamic platform brings together buyers and sellers, offering a seamless online shopping experience with a plethora of innovative features.
+🌟 Introducing BookCon A Revolutionary Multi-Vendor Book Website 🌟
 
 💡 Key Technologies:
 Front-End:
