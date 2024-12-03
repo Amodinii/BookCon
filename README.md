@@ -508,17 +508,17 @@ This project does not have a mongoDB connection setup. Set up the connection bas
 
 💻 How to run the app locally! 🏃
 
-### STAP-1
+### STEP-1
 
 `git clone https://github.com/pattjoshi/Multi_vondor_E_shop.git`
 
-### STAP-2
+### STEP-2
 
 -   `cd frontend`
 -   `yarn install`
 -   `yarn start`
 
-### STAP-3
+### STEP-3
 
 -   `cd backend`
 -   `yarn install`
@@ -542,7 +542,7 @@ STRIPE_SECRET_KEY =
 
 -   `yarn start`
 
-### STAP-4
+### STEP-4
 
 -   `cd socket`
 -   `yarn install`
