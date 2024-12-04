@@ -68,21 +68,21 @@ The BookCon application will allow users to become sellers, who can manage shops
 -   Apply Coupon Code for Discount 
 -   Product Explore Page 
     -   View Product from another seller 
-    -   View reviews from other users ⭐
-    -   The eye button shows Product Details 👁
-    -   Original Price and discount price 💵
-    -   HowMeney Buy this product 🤝
-    -   Inc and Dec product 📉 +
-    -   Show Description of product 📃
-    -   View Seller Profile 👥
-    -   Chating with Seller 💬
-    -   Show Seller Information 📋
-    -   Show Related Products 🔗
-    -   Add to wish list ❤️
-    -   Add to Cart 🛒
--   User Profile Page 👤
+    -   View reviews from other users 
+    -   The eye button shows Product Details 
+    -   Original Price and discount price 
+    -   HowMeney Buy this product 
+    -   Inc and Dec product 
+    -   Show Description of product 
+    -   View Seller Profile 
+    -   Chating with Seller 
+    -   Show Seller Information 
+    -   Show Related Products 
+    -   Add to wish list 
+    -   Add to Cart 
+-   User Profile Page 
 
-    -   Edit your profile details - profile photo, name, email, phone number ✏️
+    -   Edit your profile details - profile photo, name, email, phone number ✏
     -   change Password 🔐
     -   View All Order 👨🏾‍💻.
     -   After Delivery of the product user can Refund the product. 🔙
