@@ -1,12 +1,12 @@
 <div align="center">
 
-## 🌟 BookCon 🌟
+##  BookCon 
 
 The BookCon application will allow users to become sellers, who can manage shops, and add the products they want to sell in each shop. Admin can control functionality of Seller Users who visit BookCon will be able to search for and browse products they want to buy, and add products to their shopping cart to place an order. we have 3 Order Method.
 
 </div>
 
-## 🖥️ Tech Stack
+##  Tech Stack
 
 **Frontend:**
 
@@ -41,33 +41,33 @@ The BookCon application will allow users to become sellers, who can manage shops
 -   **Sand maill to User,seller,Admin:** [nodemailer](https://www.npmjs.com/package/nodemailer) <br/>
 -   **Store Img in Local Dev:** [multer](https://www.npmjs.com/package/multer)
 
-## 🚀 Features
+##  Features
 
--   User Authentication Pages 🚪
-    -   User Signup 📝
+-   User Authentication Pages 
+    -   User Signup 
         -   email verification
         -   upload a Profile image
-    -   User Login 🔐
--   Home Page 🏠
-    -   View all product uploads by seller 📃
-    -   filter with the category 📊
-    -   Best-selling product (Sort by Sold_out data) 💎
-    -   All Product 📦
-    -   All Event's 🎊
-    -   FAQ 🙋
--   Filters for Sorting Posts 🗂️
+    -   User Login 
+-   Home Page 
+    -   View all product uploads by seller 
+    -   filter with the category 
+    -   Best-selling product (Sort by Sold_out data) 
+    -   All Product 
+    -   All Event's 
+    -   FAQ 
+-   Filters for Sorting Posts 
     -   Sort posts by Clothes, Shows, gifts, etc...
--   User Search Bar 🔍
-    -   Search for product 🔎
-    -   Click on a user to go to the Product details page 👤
--   wish list ❤️
-    -   store in cart 👀
--   Add to cart 🛒
-    -   Check out for payment 💳
+-   User Search Bar 
+    -   Search for product 
+    -   Click on a user to go to the Product details page 
+-   wish list 
+    -   store in cart 
+-   Add to cart 
+    -   Check out for payment 
         -   we have 3 payment systems **Pay-pal**,**Strip**,**Cash of Delivery (COD)**
--   Apply Coupon Code for Discount 👉💥
--   Product Explore Page 🔍
-    -   View Product from another seller 🌍
+-   Apply Coupon Code for Discount 
+-   Product Explore Page 
+    -   View Product from another seller 
     -   View reviews from other users ⭐
     -   The eye button shows Product Details 👁
     -   Original Price and discount price 💵
